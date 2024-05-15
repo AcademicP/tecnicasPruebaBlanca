@@ -21,3 +21,23 @@ describe("Pruebas de Ruta basica Ejercicio 2", function(){
     });
 
 });
+
+/*
+@startuml
+
+digraph foo{
+ I -> L2_3_4_5
+ L2_3_4_5 -> L6
+ L6->L7
+ L7->L8_9
+ L8_9->L13
+ L7->L11
+ L11->L6
+ L6->L13
+ L13->L14
+ L13->F
+ L14->F
+}
+
+@enduml
+ */
