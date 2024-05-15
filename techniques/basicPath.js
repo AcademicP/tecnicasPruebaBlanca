@@ -33,5 +33,27 @@ module.exports={
             a=a+1;//p8
         }
         return a;//p9
+    },
+    //I,L2_3_4_5, L6, L7, L11,L6,L7,L8_9,L13,L14,F 
+    //I,L2_3_4_5, L6, L7, L11,L6,L7,L8_9,L13,F 
+    //I,L2_3_4_5, L6, L7, L8_9,L13,L14,F
+    //I,L2_3_4_5, L6, L7, L11,L6,L13,L14,F
+    //I,L2_3_4_5, L6, L7, L11,L6,L13,F
+    //I,L2_3_4_5, L6, L13,L14,F
+    //I,L2_3_4_5, L6, L13,F
+    calculate2:function(n){
+        let n, index; 
+        index = 2; 
+        while (index <= n - 1) { 
+            if (n % index == 0) { 
+                console.log("It is not a prime number"); 
+                break; 
+            } 
+            index++; 
+        } 
+        if (index == n) 
+            console.out("It is a prime number"); 
+        
+        
     }
 }
