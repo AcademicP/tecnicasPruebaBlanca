@@ -42,7 +42,7 @@ module.exports={
     //I,L2_3_4_5, L6, L13,L14,F
     //I,L2_3_4_5, L6, L13,F
     calculate2:function(n){
-        let n, index; 
+        let index; 
         index = 2; 
         while (index <= n - 1) { 
             if (n % index == 0) { 

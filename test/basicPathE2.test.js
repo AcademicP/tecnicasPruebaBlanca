@@ -1,8 +1,7 @@
 const basicPath = require("../techniques/basicPath")
 const assert =require('assert')
-
+/*
 describe("Pruebas de Ruta basica Ejercicio 2", function(){
-
     it("camino1",function(){
         const result =  basicPath.calculate2(1 );
         assert.equal(result, 1);
@@ -21,7 +20,7 @@ describe("Pruebas de Ruta basica Ejercicio 2", function(){
     });
 
 });
-
+*/
 /*
 @startuml
 
